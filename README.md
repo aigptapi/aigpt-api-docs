@@ -47,10 +47,25 @@ curl -X POST http://47.236.50.232:3000/v1/chat/completions \
 |POST   	|http://47.236.50.232:3000/v1/chat/completions    |
 Fully compatible with OpenAI Chat Completions API.
 
-🧠 Available Models
-|Model ID		|Description				|Context Window	|
-|deepseek-chat	|Fast, general-purpose conversational model	|128K tokens	|
-|deepseek-reasoner	|Advanced reasoning with deeper analysis	|128K tokens	|
+## 🧠 Available Models
+
+| Model ID | Description | Context Window | Knowledge Cut-off |
+|---|---|---|---|
+| `deepseek-v4-pro` | 旗舰推理模型，适合复杂 Agent 任务 | 1M tokens | 2025年5月 |
+| `deepseek-v4-flash` | 高效对话模型，性价比首选 | 1M tokens | 2025年5月 |
+
+> Compatible with OpenAI Chat Completions API format.  
+> More powerful than GPT-4o, at 1/10 the price.
+
+## 💰 Why AIGPT?
+
+| Service | Model | Input (1M tokens) | Output (1M tokens) |
+|---|---|---|---|
+| OpenAI | GPT-4o | $30.00 | $180.00 |
+| **AIGPT** | **DeepSeek V4-Flash** | **$0.50** | **$1.20** |
+
+> **Save over 90%** while maintaining near-equivalent quality.  
+> No registration hassles, no payment barriers, just pure API access.
 
 🔑 Authentication
 Include your API key in the Authorization header:
