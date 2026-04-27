@@ -51,10 +51,10 @@ Fully compatible with OpenAI Chat Completions API.
 
 | Model ID | Description | Context Window | Knowledge Cut-off |
 |---|---|---|---|
-| `deepseek-v4-pro` | 旗舰推理模型，适合复杂 Agent 任务 | 1M tokens | 2025年5月 |
-| `deepseek-v4-flash` | 高效对话模型，性价比首选 | 1M tokens | 2025年5月 |
+| `deepseek-v4-pro` | Flagship reasoning model, ideal for complex Agent tasks | 1M tokens | May 2025 |
+| `deepseek-v4-flash` | Efficient chat model, the best choice for value | 1M tokens | May 2025 |
 
-> Compatible with OpenAI Chat Completions API format.  
+> Fully compatible with the OpenAI Chat Completions API format.  
 > More powerful than GPT-4o, at 1/10 the price.
 
 ## 💰 Why AIGPT?
