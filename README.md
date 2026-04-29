@@ -107,5 +107,4 @@ See `PRICING.md` for detailed pricing and volume discounts.
 - Response time: within 24 hours
 ```
 
----
 
