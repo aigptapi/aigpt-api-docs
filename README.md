@@ -80,6 +80,13 @@ Fully compatible with [OpenAI Chat Completions API](https://platform.openai.com/
 > **Save over 90%** while maintaining near-equivalent quality.  
 > No registration hassles, no payment barriers, just pure API access.
 
+## 📋 Public Model List
+
+Browse our available models and pricing without an API key:
+
+```bash
+curl http://47.236.50.232:3001/v1/models
+
 ## 🔑 Authentication
 
 Include your API key in the `Authorization` header:
@@ -106,5 +113,10 @@ See `PRICING.md` for detailed pricing and volume discounts.
 - Email: `wzh786008887@outlook.com`
 - Response time: within 24 hours
 ```
+## 🌐 Coming Soon on OpenRouter
 
+We are in the process of listing AIGPT on OpenRouter, the largest LLM aggregator. Stay tuned for even easier access and global billing.
 
+## 📄 Legal
+
+[Privacy Policy](./PRIVACY.md)
