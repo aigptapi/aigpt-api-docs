@@ -76,16 +76,15 @@ Fully compatible with [OpenAI Chat Completions API](https://platform.openai.com/
 > Fully compatible with the OpenAI Chat Completions API format.  
 > More powerful than GPT-4o, at 1/10 the price.
 
-
-> **Save over 90%** while maintaining near-equivalent quality.  
-> No registration hassles, no payment barriers, just pure API access.
-
 ## 📋 Public Model List
 
 Browse our available models and pricing without an API key:
 
-
+```bash
 curl http://47.236.50.232:3001/v1/models
+```
+
+Returns all supported models with their context lengths and pricing.
 
 ## 🔑 Authentication
 
@@ -112,7 +111,6 @@ See `PRICING.md` for detailed pricing and volume discounts.
 
 - Email: `wzh786008887@outlook.com`
 - Response time: within 24 hours
-
 
 ## 🌐 Coming Soon on OpenRouter
 
